@@ -1,0 +1,121 @@
+img{
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Title styles */
+  #title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  main > p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 0 20px;
+  }
+  
+  /* Image section styles */
+  #img-div {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Timeline section styles */
+  #tribute-info {
+    margin-top: 20px;
+  }
+  
+  #headline {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  li::before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Link styles */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    main {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    #title {
+      font-size: 2em;
+    }
+  
+    #headline {
+      font-size: 1.3em;
+    }
+  
+    main > p {
+      font-size: 1em;
+    }
+  }
+  
